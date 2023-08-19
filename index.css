@@ -1,0 +1,77 @@
+body{
+    background: #000;
+}
+.heading{
+    color: #FFF;
+    font-family: Inter;
+}
+.grid-form{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+form>div{
+    margin: 25px 0;
+}
+div>input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background: #000;
+    color:white;
+    border: 1px solid white ;
+}
+form>button{
+    width: 43.5%;
+    background: #FFF;
+    color: #000;
+    height: 3.1875rem;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 15px 0;
+}
+.search{
+    border: 1px solid white;
+}
+.search>input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background: #000;
+    color:white;
+}
+th{
+    border: 1px solid white;
+}
+td{
+    border-right: 1px solid white;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+tr>th,td{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    padding: 12px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid white;
+}
+.table-head>th{
+    border: 1px solid white;
+}
+.table-body>td{
+    border-right: 1px solid white;
+}
+.edit-btn{
+    color: #FFF;
+    font-size: 15px;
+}
+.delete-btn{
+    /* background: #000; */
+    color: #FFF;
+    font-size: 15px;
+}
